@@ -1,6 +1,9 @@
 name: Multi Platform Workflow
 
 on:
+release:
+    types: created
+  workflow_dispatch: #put here!!!!
   pull_request:
     branches:
       - main
